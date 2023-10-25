@@ -1,0 +1,95 @@
+		
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+           text-align: center;
+           background-size: cover;
+           margin: 0;
+           padding: 0;
+            
+        }
+
+        .container {
+            background-color: #fff;
+            max-width: 450px;
+            margin: 0 auto;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .container h2 {
+            font-size: 24px;
+            margin-bottom: 20px;
+			text-align: center;
+        }
+
+        .form-group {
+            margin-bottom: 15px;
+			margin-right: 15px;
+			text-align: left;
+			
+        }
+
+        label {
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        input[type="text"],
+        input[type="password"] {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        input[type="email"] {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            background-color: #f4f4f4;
+        }
+
+        .btn {
+            background-color: #007bff;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .btn:hover {
+            background-color: #0056b3;
+		}
+		 
+        /* Estilos del menú */
+        .menu {
+            background-color: #333;
+            overflow: hidden;
+        }
+
+        .menu a {
+            float: left;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        .menu a:hover {
+            background-color: #ddd;
+            color: #333;
+        }
+
+        /* Estilos de los apartados del menú */
+        .menu-item {
+            float: right;
+
+        
+        }
+		

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>formulario</title>
+  <link rel="stylesheet" href="inicio.css">
+
+</head>
+
+<body>
+  <!-- seccion formulario -->
+  <div class="seccion" id="seccion">
+
+
+    <div class="form">
+      <!--cabecera formulario    -->
+      <div class="header">
+        <h2>formulario</h2>
+      </div>
+      <form class="formulario" action="registro.php" method="POST">
+        <!--   nombre   -->
+        <div class="form-control">
+          <label for="nombre">Nombre</label>
+          <input type="text" name="usuario" id="nombre" placeholder="introduce tu nombre" required>
+          <i class="fa fa-check-circle"></i>
+          <i class="fa fa-exclamation-circle"></i>
+        </div>
+        <!-- Apellidos-->
+        <div class="form-control">
+          <label for="telefono">Apellidos</label>
+          <input type="text" name="apellidos" placeholder="introduce tus apellidos" id="apellidos" required />
+          <i class="fa fa-check-circle"></i>
+          <i class="fa fa-exclamation-circle"></i>
+        </div>
+        <!--  email    -->
+        <div class="form-control">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="correo" placeholder="introduce tu email" required>
+          <i class="fa fa-check-circle"></i>
+          <i class="fa fa-exclamation-circle"></i>
+        </div>
+        <!--      Contraseña  -->
+        <div class="form-control">
+          <label for="asunto">Contraseña</label>
+          <input type="password" name="password" placeholder="introduce tu contraseña" id="contraseña" required />
+
+          <i class="fa fa-check-circle"></i>
+          <i class="fa fa-exclamation-circle"></i>
+        </div>
+        <!--    repite Contraseña  -->
+        <div class="form-control">
+          <label for="asunto">Repite la Contraseña</label>
+          <input type="password" name="password2" placeholder="repite tu contraseña" id="contraseña" required />
+
+          <i class="fa fa-check-circle"></i>
+          <i class="fa fa-exclamation-circle"></i>
+        </div>
+
+        <button type="submit">Registrarte</button>
+        <div class="Inicio sesion">
+          <label for="asunto">¿Ya estas Registrado?</label>
+          <a href="inicio.html">Inicio de sesion</a>
+
+        </div>
+      </form>
+
+
+    </div>
+
+
+</body>
+
+</html>

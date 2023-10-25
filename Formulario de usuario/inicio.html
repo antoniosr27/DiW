@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>formulario</title>
+  <link rel="stylesheet" href="inicio.css">
+
+</head>
+
+<body>
+  <!-- seccion formulario -->
+  <div class="seccion" id="seccion">
+
+
+    <div class="form">
+      <!--cabecera formulario    -->
+      <div class="header">
+        <h2>formulario</h2>
+      </div>
+      <form class="formulario" action="inicio.php" method="POST">
+
+        <!--  email    -->
+        <div class="form-control">
+          <label for="email">Email</label>
+          <input type="email" id="email" placeholder="introduce tu email" name="email" required>
+          <i class="fa fa-check-circle"></i>
+          <i class="fa fa-exclamation-circle"></i>
+        </div>
+        <!--      Contraseña  -->
+        <div class="form-control">
+          <label for="asunto">Contraseña</label>
+          <input type="password" placeholder="introduce tu contraseña" id="contraseña" name="password" required />
+          <i class="fa fa-check-circle"></i>
+          <i class="fa fa-exclamation-circle"></i>
+        </div>
+        <button type="submit">Iniciar sesion</button>
+        <label for="asunto">¿Quieres volver?</label>
+        <a class="res" href="Registro.html">Registrarse</a>
+    </div>
+    </form>
+
+
+  </div>
+
+
+</body>
+
+</html>

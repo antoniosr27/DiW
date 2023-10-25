@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="perfil.css">
+   
+</head>
+<body>
+    <div class="menu">
+        <a href="menuAdmin.html">Inicio</a>
+        <div class="menu-item">
+            <a href="PerfilAdmin.html">Editar Perfil</a>
+            <a href="editarUsuarios.html">Editar Usuarios</a>
+            <a href="cerrar.php">Cerrar Sesión</a>
+        </div>
+    </div>
+   
+        <div class="container">
+            <h2>Editar Perfil</h2>
+            <form action="perfil.php" method="POST">
+                <div class="form-group">
+                    <label class="alinea" for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" placeholder="Nombre" required>
+                </div>
+                <div class="form-group">
+                    <label class="alinea" for="apellido">Apellido:</label>
+                    <input type="text" id="apellido" name="apellido" placeholder="Apellido" required>
+                </div>
+                <div class="form-group">
+                    <label class="alinea" for="email">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="Email" disabled>
+                </div>
+                <div class="form-group">
+                    <label class="alinea" for="contrasena">Contraseña:</label>
+                    <input type="password" id="contrasena" name="contrasena" placeholder="Contraseña" required>
+                </div>
+                <div class="form-group">
+                    <label class="alinea"for="poblacion">Población:</label>
+                    <input type="text" id="poblacion" name="poblacion" placeholder="Población">
+                </div>
+                <button type="submit" class="btn">Guardar</button>
+            </form>
+        </div>
+    </body>
+    </html>
